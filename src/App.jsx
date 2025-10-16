@@ -36,7 +36,7 @@ function App() {
           <Research/>
           <Levels/>
           <Training/>
-          {/* <Pricing/> */}
+          <Pricing/>
       </div>
   )
 }

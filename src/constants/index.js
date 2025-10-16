@@ -20,7 +20,8 @@ import { FaCampground } from "react-icons/fa";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { FaPen } from "react-icons/fa";
 import { CiCirclePlus } from "react-icons/ci";
-
+import { FaRegFileCode } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 
 
 // Navbar data
@@ -155,7 +156,7 @@ export const levels = [
     duration: "40 min",
     questions: "50 Questions",
     description:
-      "Validate your React fundamentals with this certification. Demonstrate your ability to work with core concepts and basic implementations, enhancing your credibility with employers and readiness for junior React roles.",
+      "Validate your React fundamentals with this certification. Demonstrate your ability to work with core concepts and basic implementations, enhancing your credibility with employers and clients. This certification confirms your readiness for junior React developer roles and provides a solid foundation for your career growth.",
     buttonText: "View Pricing",
     color: "text-cyan-400",
   },
@@ -166,7 +167,7 @@ export const levels = [
     duration: "135 min",
     questions: "40 Questions and 105 minutes of Coding Challenges",
     description:
-      "Prove your proficiency in intermediate React concepts and real-world applications. This certification showcases your ability to tackle complex projects, making you stand out in the job market.",
+      "Prove your proficiency in intermediate React concepts and real-world applications. This certification showcases your ability to tackle complex projects, making you stand out in the job market. Ideal for developers looking to take on more challenging React roles and projects.",
     buttonText: "View Pricing",
     color: "text-orange-400",
   },
@@ -177,7 +178,7 @@ export const levels = [
     duration: "135 min",
     questions: "40 Questions and 105 minutes of Coding Challenges",
     description:
-      "Demonstrate your expertise in React architecture and large-scale applications. Verify your ability to lead projects, solve advanced challenges, and architect enterprise-level solutions.",
+      "Demonstrate your expertise in React architecture and large-scale application development. This certification verifies your ability to lead React projects, solve advanced challenges, and architect enterprise-level applications. Position yourself as a top-tier React professional capable of driving complex, high-stakes projects.",
     buttonText: "View Pricing",
     color: "text-green-400",
   },
@@ -241,6 +242,36 @@ export const pricing = [
         icon:CiCirclePlus,
         
     },
+    {
+        id:2,
+        logo:HiMiniCodeBracketSquare,
+        title:'Priority delivery for certification voucher',
+        text:'Use any after the examinations launch. Become one of the first to get your Certified React Developer Certificate!',
+        icon:CiCirclePlus
+    },
+    {
+        id:3,
+        logo:BsFillFileTextFill,
+        title:'Early access to the preparation guide',
+        text:'Dive into detaile in this finalize guide and familarize yourself with the content of the exam. know what prepare before anyone else.',
+        icon:CiCirclePlus
+    },
+    {
+        id:4,
+        logo:FaRegFileCode,
+        title:'Launch Price Discounts',
+        text:'Get your react Certification at a great launch discount. Limited time only.',
+        icon:CiCirclePlus
+    },
+    {
+        id:5,
+        logo:FaHeart,
+        title:'Be First to be Certified',
+        text:'Get immediate access to junior and mid-level examinitaions.',
+        icon:CiCirclePlus
+    }
+
+
     
 ]
 

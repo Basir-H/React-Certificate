@@ -4,7 +4,7 @@ import { instructors } from '../constants'
 function Instructor() {
   return (
     // Instructors Container
-    <div className='flex flex-col justify-center items-center gap-8 mb-[2rem] mt-[10rem] p-3 sm:p-0'>
+    <div className='flex flex-col justify-center items-center gap-8 mb-[2rem] mt-[3rem] sm:mt-[5.3rem] md:mt-[10rem] p-3 sm:p-0'>
         {
             instructors.map((instructor) => {
                 return(
@@ -25,7 +25,7 @@ function Instructor() {
                                         {instructor.lName}
                                     </span>
                                 </h3>
-                                <p className=' text-[1rem] sm:text-[1.2rem] text-gray-500 mt-4'>{instructor.job}</p>
+                                <p className=' text-[1.1rem] sm:text-[1.2rem] text-gray-400 mt-4'>{instructor.job}</p>
                             </div>
                         </div>
 

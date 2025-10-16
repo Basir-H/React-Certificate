@@ -3,18 +3,18 @@ import { steps } from '../constants'
 
 function Steps() {
   return (
-    <div className='mt-[4.5rem] lg:mt-[8rem] mb-[4rem] px-4 sm:px-[2.5rem] lg:px-[4rem]'>
+    <div className='mt-[4.8rem] lg:mt-[8rem] mb-[4rem] px-4 sm:px-[2.5rem] lg:px-[4rem]'>
 
         {/* Title */}
         <div>
-          <h2 className='text-[2rem] sm:text-[4rem] text-center font-bold'>
+          <h2 className='text-[2rem] sm:text-[4rem] text-center font-bold leading-[2.5rem]'>
            <span>Steps to</span>{" "} 
            <span className='text-[rgba(0,255,255,0.6)]'>Certification</span>
           </h2>
         </div>
 
         {/* Steps Container*/}
-        <div className='mt-[4rem] flex flex-col flex-1 gap-5 sm:gap-12  lg:flex-row lg:flex-wrap'>
+        <div className='mt-[3rem] flex flex-col flex-1 gap-5 sm:gap-12  lg:flex-row lg:flex-wrap'>
           {
             steps.map((step) => {             
               return(
@@ -28,14 +28,14 @@ function Steps() {
                  <div className='flex gap-4 sm:gap-[2rem] lg:gap-[3rem]'>
                   {/* title */}
                   <div className='flex flex-col items-center lg:gap-2'>
-                      <h3 className='text-[1.1rem] font-bold text-[rgba(0,255,255,0.6)]'>{step.stepNum}</h3>
+                      <h3 className='text-[1.1rem] font-semibold text-[rgba(0,255,255,0.6)]'>{step.stepNum}</h3>
                     <div>
                     {step.icon && (
                       <div className='text-[rgba(0,255,255,0.9)]'>
                         <step.icon className='w-[3.6rem] h-[5rem]'/>
                       </div>
                     )}
-                    {step.img && (<img src={step.img} alt="" className='w-[13rem]  ss:w-[6rem] sm:w-[5rem] mt-3'/>)}
+                    {step.img && (<img src={step.img} alt="" className='w-[16rem]  xs:w-[8rem] sm:w-[8rem] md:w-[5rem] lg:w-[4rem] mt-3'/>)}
                     </div>
                   </div>
                  

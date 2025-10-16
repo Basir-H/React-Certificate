@@ -58,7 +58,7 @@ function Navbar({toggle, setToggle}) {
               }}
               />
               <div 
-              className={`${toggle ? "flex flex-col" : "hidden"} -mt-[13px] bg-primary p-6 absolute top-[79px] right-0  w-full sidebar z-50`}
+              className={`${toggle ? "flex flex-col" : "hidden"}  -mt-[13px] bg-primary p-6 absolute top-[79px] right-0  w-full sidebar z-50`}
               >
 
               <ul className='list-none flex-col justify-end flex-1 items-center'>

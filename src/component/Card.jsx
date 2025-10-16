@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button"; // ✅ Button خودت را ایمپورت کن
+import Button from "./Button"; 
 
 const Card = ({ 
   title, 
@@ -23,7 +23,7 @@ const Card = ({
 
 }) => {
   return (
-    <div className={`${className} bg-gray-900 rounded-[1rem] px-[2rem] py-[1rem] sm:py-[2rem]`}>
+    <div className={`${className} group bg-gray-900 rounded-[1rem] px-[2rem] py-[1rem] sm:py-[2rem]`}>
       
       {/* Header */}
       <div className={`${headerClass} gap-2 sm:flex-col sm:items-start`}>
@@ -44,7 +44,7 @@ const Card = ({
 
         <div className="flex gap-2">
           {/* Title */}
-          <div className="h-[6rem]">
+          <div className="">
               <h3 className={`text-[rgba(0,255,255,0.6)] ${titleClass}`}>{title}</h3>
           </div>
 

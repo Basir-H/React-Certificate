@@ -3,18 +3,19 @@ import { benifits } from '../constants'
 
 function Benifits() {
   return (
-    <div className='pt-[9.8rem]'>
+    <div className='mt-[6rem]'>
         {/* Title */}
         <div className=''>
-            <h1 className='flex justify-center flex-wrap gap-x-4 text-center text-[1.9rem] sm:text-[4.2rem] font-bold leading-[2rem] sm:leading-[5rem] lg:w-[60%] lg:mx-auto'>
-                <span> Benefits of getting your </span> 
+            <h1 className='flex justify-center flex-wrap gap-x-2 text-center text-[2rem] sm:text-[4.2rem] font-bold leading-[2.3rem] sm:leading-[5rem] lg:w-[60%] lg:mx-auto'>
+                <span> Benefits of getting </span>
+                <span>your</span> 
                 <span className='text-[rgba(0,255,255,0.6)]'>React</span> 
                 <span> Certification </span>
             </h1>
         </div>
 
         {/* Benifits conatainer */}
-        <div className='px-[20px] sm:px-[78px] mt-[4rem]'>
+        <div className='px-[20px] sm:px-[78px] mt-[5rem]'>
             {benifits.map((benifit, index) => {
                 return(
                     <div 
@@ -23,7 +24,7 @@ function Benifits() {
                     }`}
                     >
                         <div className='md:w-1/2'>
-                            <h2 className='text-center sm:text-start text-[1.2rem] sm:text-[2.5rem] font-bold leading-[3rem] mb-4 sm:mb-8'>
+                            <h2 className='text-center sm:text-start text-[1.2rem] sm:text-[2.5rem] font-bold leading-[1.5rem] sm:leading-[3rem] mb-4 sm:mb-8'>
                               {index % 2 === 1 ? (
                                 <>
                                   <span className={`${benifit.color}`}>{benifit.title1}</span> {' '}
@@ -43,8 +44,8 @@ function Benifits() {
                             </p>
                         </div>
                         {/* Image */}
-                        <div className=' '>
-                            <img src={benifit.img} alt="" className='w-[40rem]'/>
+                        <div className=' w-[25rem] md:w-[40rem]'>
+                            <img src={benifit.img} alt="" className=''/>
                         </div>
                     </div>
                 )

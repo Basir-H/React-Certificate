@@ -5,14 +5,14 @@ function Companies() {
   return (
     <div>
         {/* title */}
-        <div className='pt-[6rem]'>
-            <h2 className='flex justify-center flex-wrap px-4 gap-x-2 text-[2rem] sm:text-[4rem] font-semibold text-gray-300 text-center mb-6 mt-10'>
+        <div className='mt-[6rem] '>
+            <h2 className='flex justify-center flex-wrap px-4 gap-x-2 text-[1.8rem] sm:text-[4rem] font-bold leading-[2.3rem] text-gray-300 text-center mb-6 mt-10'>
                 <span>Companies that use</span> 
                 <span className='text-[rgba(0,255,255,0.9)]'>React</span>
             </h2>
         </div>
         {/* logo's */}
-        <div className='flex justify-center flex-wrap items-center gap-16 mt-14 mb-4 px-[1rem] sm:px-0'>
+        <div className='flex justify-center flex-wrap items-center gap-12 mt-20 mb-4 px-[1rem] sm:px-0'>
             <img src={instagram} alt="" />
             <img src={netflix} alt="" />
             <img src={whatsApp} alt="" />

@@ -12,8 +12,9 @@ function Hero({toggle}) {
        transition-all duration-300 ${toggle ? 'mt-[23rem] lg:mt-0' : 'mt-[0rem]'}
       `}>
       <div className=''>
-        <p className='text-center py-[5px] px-[10px] bg-gray-600 rounded text-white border-white text-[14px] sm:text-[16px]  font-bold'>JUNIOR, MID-LEVEL AND SENIOR EXAMS NOW AVAILABLE</p>
+        <p className='text-center py-[5px] px-[5px] sm:px-[10px] bg-gray-600 rounded text-white border-white text-[0.8rem] sm:text-[16px] font-bold'>JUNIOR, MID-LEVEL AND SENIOR EXAMS NOW AVAILABLE</p>
       </div>
+
       {/* Main section */}
       <div className="flex flex-col items-center lg:flex-row lg:items-start gap-8" >
         <div className="flex-col ">
@@ -25,7 +26,7 @@ function Hero({toggle}) {
          </div>
          {/* subtitle */}
          <div>
-           <h2 className="mt-8 text-center lg:text-start text-[18px] lg:text-[35px] font-bold">
+           <h2 className="mt-8 text-center lg:text-start text-[16 px] lg:text-[35px] font-bold">
              Certification of competence for React
            </h2>
          </div>
@@ -34,13 +35,13 @@ function Hero({toggle}) {
            <Button
              text={"Sign Up with Git Hub"}
              varient={"primaryOutline"}
-             className="flex justify-center items-center gap-4 rounded-lg py-[19px] text-[1.09rem] border-[0.2rem] w-[20rem] xs:w-[28rem] ss:w-[35rem] sm:w-[45rem] md:w-[55rem] lg:w-full "
+             className="flex justify-center items-center gap-4 rounded-lg py-[0.7rem] text-[1.09rem] border-[0.2rem] w-[18rem] xs:w-[28rem] ss:w-[35rem] sm:w-[45rem] md:w-[55rem] lg:w-full "
              icon={FaGithub} 
              />
              <Button
              text={"Sign Up with Discord"}
              varient={"primaryOutline"}
-             className="flex justify-center items-center gap-4 rounded-lg py-[19px] text-[1.09rem] border-[0.2rem]  w-[20rem] xs:w-[28rem] ss:w-[35rem] sm:w-[45rem] md:w-[55rem] lg:w-full "
+             className="flex justify-center items-center gap-4 rounded-lg py-[0.7rem] text-[1.09rem] border-[0.2rem]  w-[18rem] xs:w-[28rem] ss:w-[35rem] sm:w-[45rem] md:w-[55rem] lg:w-full "
              icon={FaDiscord}
              />
              
@@ -90,17 +91,17 @@ function Hero({toggle}) {
           </div>
 
           {/* big logo of react */}
-          <div className="absolute top-[6rem] left-[10rem] sm:top-[3.4rem] sm:left-[14.7rem]">
+          <div className="absolute top-[6rem] left-[9rem] sm:top-[3.4rem] sm:left-[14.7rem]">
             <img
               src={certification03}
               alt=""
-              className="w-[8rem] sm:w-[23rem] sm:h-[23rem] 
+              className="w-[7rem] sm:w-[23rem] sm:h-[23rem] 
               "
             />
           </div>
 
           {/* small logo of react */}
-          <div className="absolute top-[3.9rem] left-[5.8rem] sm:top-[5.5rem] sm:left-[6rem]">
+          <div className="absolute top-[4.4rem] left-[5rem] sm:top-[5.5rem] sm:left-[6rem]">
             <img
               src={reactImage}
               alt=""

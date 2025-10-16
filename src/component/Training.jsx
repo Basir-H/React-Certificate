@@ -4,12 +4,12 @@ import { levels, training } from '../constants'
 
 function Training() {
   return (
-    <div className='mt-[10rem] mb-[5rem]'>
+    <div className='mt-[6rem] mb-[5rem]'>
         {/* title */}
         <div className='mb-[3rem] '>
-            <h3 className='text-center text-[1.8rem] sm:text-[3.5rem] w-full sm:w-[80%] md:w-[60%] lg:w-[50%] sm:mx-auto font-bold'>
+            <h3 className='text-center text-[1.8rem] sm:text-[3.5rem] w-[85%] mx-auto  sm:w-[80%] md:w-[60%] lg:w-[50%] font-bold'>
                 <span className='text-[rgba(0,255,255,0.6)]'>Optional Preparation</span>{" "}
-                <span>Training Products</span>
+                <span className='text-gray-300'>Training Products</span>
             </h3>
         </div>
         {/* Cards container */}
